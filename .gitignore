@@ -41,6 +41,15 @@ build/Release
 node_modules/
 jspm_packages/
 
+### VisualStudioCode ###
+.vscode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
 # TypeScript v1 declaration files
 typings/
 
@@ -102,3 +111,6 @@ dist
 
 # TernJS port file
 .tern-port
+
+
+.formulario
